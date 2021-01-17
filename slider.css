@@ -70,7 +70,7 @@ body, html {
     align-items: center;
     transform: translate(0, 0);
     transition: transform 0.4s ease-out;
-    background-image:  url(images/fot3.JPG);
+    background-image:  url(images/fot3a.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@ body, html {
     align-items: center;
     transform: translate(0, 0);
     transition: transform 0.4s ease-out;
-    background-image: url(images/fot2.jpg);
+    background-image: url(images/fot2a.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -150,7 +150,7 @@ body, html {
     top: 20; 
     bottom: 0; 
     width: 100%; 
-    height: 405px; 
+    height: 485px; 
     background-color: rgb(32, 30, 30); 
     opacity: 0.70;
 
@@ -203,7 +203,7 @@ to { transform: translateY(0); opacity: 0.5;}
     align-items: center;
     transform: translate(0, 0);
     transition: transform 0.4s ease-out;
-    background-image:  url(images/fot1.JPG);
+    background-image:  url(images/fot1a.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -217,7 +217,7 @@ to { transform: translateY(0); opacity: 0.5;}
     top: 20; 
     bottom: 0; 
     width: 100%; 
-    height: 370px; 
+    height: 425px; 
     background-color: rgb(32, 30, 30); 
     opacity: 0.70;
 
@@ -262,7 +262,7 @@ to { transform: translateY(0); opacity: 0.5;}
     align-items: center;
     transform: translate(0, 0);
     transition: transform 0.4s ease-out;
-    background-image:  url(images/fot4.JPG);
+    background-image:  url(images/fot4a.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -358,5 +358,8 @@ to { transform: translateY(0); opacity: 0.5;}
     }
     .page2 .list {
         font-size: 15px;
+    }
+    .page2 {
+        background-position: 88% 75%;
     }
 }
