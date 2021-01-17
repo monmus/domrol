@@ -362,4 +362,7 @@ to { transform: translateY(0); opacity: 0.5;}
     .page2 {
         background-position: 88% 75%;
     }
+    .page4 {
+        background-position: 25% 75%;
+    }
 }
