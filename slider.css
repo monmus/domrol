@@ -70,7 +70,7 @@ body, html {
     align-items: center;
     transform: translate(0, 0);
     transition: transform 0.4s ease-out;
-    background-image:  url(zdjęcia/fot3.jpg);
+    background-image:  url(images/fot3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@ body, html {
     align-items: center;
     transform: translate(0, 0);
     transition: transform 0.4s ease-out;
-    background-image: url(zdjęcia/fot2.jpg);
+    background-image: url(images/fot2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -203,7 +203,7 @@ to { transform: translateY(0); opacity: 0.5;}
     align-items: center;
     transform: translate(0, 0);
     transition: transform 0.4s ease-out;
-    background-image:  url(zdjęcia/fot1.jpg);
+    background-image:  url(images/fot1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -262,7 +262,7 @@ to { transform: translateY(0); opacity: 0.5;}
     align-items: center;
     transform: translate(0, 0);
     transition: transform 0.4s ease-out;
-    background-image:  url(zdjęcia/fot4.jpg);
+    background-image:  url(images/fot4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
