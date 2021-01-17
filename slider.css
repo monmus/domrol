@@ -9,7 +9,7 @@ body, html {
     text-decoration: none; } 
   
   a:hover {
-    color: hotpink;
+    color: rgb(199, 169, 1);
   }
   
   body {
@@ -84,7 +84,7 @@ body, html {
     top: 20; 
     bottom: 0; 
     width: 100%; 
-    height: 200px; 
+    height: 155px; 
     background-color: rgb(32, 30, 30); 
     opacity: 0.70;
 
@@ -101,13 +101,11 @@ body, html {
   }
 
   .page1 .arrow-box {
-    
         display: block;
         bottom: 20px;
         width: 100%;
         position: absolute;
         animation: down 2.5s infinite ease;
-     
   }
 
   .page1 .arrow-box .arrow {
@@ -153,7 +151,6 @@ body, html {
     height: 485px; 
     background-color: rgb(32, 30, 30); 
     opacity: 0.70;
-
   }
 
   .page2 .list {
@@ -162,18 +159,14 @@ body, html {
     /* text-align: center; */
     color: white;
     letter-spacing: 2px;
-
-
   }
 
   .page2 .arrow-box {
-    
     display: block;
     bottom: 20px;
     width: 100%;
     position: absolute;
     animation: down 2.5s infinite ease;
- 
 }
 
 .page2 .arrow-box .arrow {
@@ -217,20 +210,18 @@ to { transform: translateY(0); opacity: 0.5;}
     top: 20; 
     bottom: 0; 
     width: 100%; 
-    height: 425px; 
+    height: 460px; 
     background-color: rgb(32, 30, 30); 
     opacity: 0.70;
 
   }
 
   .page3 .arrow-box {
-    
     display: block;
     bottom: 20px;
     width: 100%;
     position: absolute;
     animation: down 2.5s infinite ease;
- 
 }
 
 .page3 .arrow-box .arrow {
@@ -248,7 +239,6 @@ from { transform: translateY(0); opacity: 0.5;}
 50% { transform: translateY(10px); opacity: 1}
 to { transform: translateY(0); opacity: 0.5;}
 }
-
 
   .page4 {
     flex: 1 0 100%;
@@ -279,7 +269,6 @@ to { transform: translateY(0); opacity: 0.5;}
     height: 415px; 
     background-color: rgb(32, 30, 30); 
     opacity: 0.70;
-
   }
   
   .page4 .images img {
@@ -288,9 +277,6 @@ to { transform: translateY(0); opacity: 0.5;}
       width: 200x;
       padding: 5px;
   }
-
-
-  
   
   .sectionButtonContainer {
     position: fixed;
@@ -300,7 +286,6 @@ to { transform: translateY(0); opacity: 0.5;}
     right: 3vw; 
     color: rgb(30, 30, 30);
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
-  
   }
   
   .sectionButtonContainer label, .page_selection label {
@@ -329,13 +314,10 @@ to { transform: translateY(0); opacity: 0.5;}
    display: none;
   }
   
-  
   .sectionButtonContainer input[type=radio]:checked + label, .page_selection input[type=radio]:checked + label  {
     transform: scale(2.2);
     transition: transform 0.2s;
   }
-  
-  
   
   .page_selection {
     position: absolute;
@@ -346,7 +328,6 @@ to { transform: translateY(0); opacity: 0.5;}
     color: rgb(30, 30, 30);
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
     z-index: 999999; 
-  
   }
 
   @media screen and (max-width:400px){
@@ -357,7 +338,7 @@ to { transform: translateY(0); opacity: 0.5;}
         font-size: calc(1em + 1vw);
     }
     .page2 .list {
-        font-size: 15px;
+        font-size: 13px;
     }
     .page2 {
         background-position: 88% 75%;
