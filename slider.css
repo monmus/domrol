@@ -148,7 +148,7 @@ body, html {
     top: 20; 
     bottom: 0; 
     width: 100%; 
-    height: 454px; 
+    height: 430px; 
     background-color: rgb(32, 30, 30); 
     opacity: 0.70;
   }
@@ -210,7 +210,7 @@ to { transform: translateY(0); opacity: 0.5;}
     top: 20; 
     bottom: 0; 
     width: 100%; 
-    height: 485px; 
+    height: 360px; 
     background-color: rgb(32, 30, 30); 
     opacity: 0.70;
 
@@ -345,5 +345,11 @@ to { transform: translateY(0); opacity: 0.5;}
     }
     .page4 {
         background-position: 25% 75%;
+    }
+    .section-overlay-mask2 {
+        height: 454px;
+    }
+    .section-overlay-mask3 {
+        height: 485px;
     }
 }
